@@ -5,7 +5,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 5000;
 
 const authRoutes = require('./routes/auth');
-const vehicleRoutes = require('./routes/Vehicle');
+const vehicleRoutes = require('./routes/Vehicle'); // Ensure the file name matches
 const bookingRoutes = require('./routes/booking');
 
 const app = express();
@@ -18,7 +18,6 @@ app.use('/api/vehicle', vehicleRoutes);
 app.use('/api/booking', bookingRoutes);
 // app.get("/search", searchVehicle);
 
-
 app.listen(PORT, () => {
-  console.log('🔥 Server Running on Port 3000');
+  console.log(`🔥 Server Running on Port ${PORT}`);
 });
