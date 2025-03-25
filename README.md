@@ -15,8 +15,8 @@ A full CRUD vehicle rental system with a booking system.
 
 1. Clone the repository:
     ```bash
-    [git clone https://github.com/k4v1nd4-p3r3r4/Vehicle-Rental-System---Full-CRUD-with-Booking-System-.git]
-    [cd Vehicle-Rental-System]
+    git clone https://github.com/k4v1nd4-p3r3r4/Vehicle-Rental-System---Full-CRUD-with-Booking-System-.git
+    cd Vehicle-Rental-System
 
 
     
