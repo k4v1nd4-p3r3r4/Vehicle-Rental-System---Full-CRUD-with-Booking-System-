@@ -1,7 +1,20 @@
 # 🚗 Vehicle Rental System - Full CRUD with Booking System
 
 
-A full CRUD vehicle rental system with a booking system.
+## Overview
+
+The Vehicle Rental System is a web application that allows users to rent vehicles and manage bookings. It provides a full CRUD (Create, Read, Update, Delete) functionality for vehicles and bookings. The system includes user authentication and authorization to ensure secure access to the application.
+
+## Technology
+
+The project is built using the following technologies:
+
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express.js**: A minimal and flexible Node.js web application framework.
+- **MySQL**: A relational database management system.
+- **Multer**: A middleware for handling `multipart/form-data`, used for uploading files.
+- **JWT**: JSON Web Tokens for authentication and authorization.
+- **dotenv**: A module to load environment variables from a `.env` file.
 
 ## Table of Contents
 
